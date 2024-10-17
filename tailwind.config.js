@@ -6,6 +6,7 @@ export default {
       backgroundImage: {
         banner: "url(/banner.png)",
         bglogin: "url(/bg_login_vieon.png)",
+        bgmobifone: "url(/bg_vieon_mobiefone.jpg)",
       },
     },
   },

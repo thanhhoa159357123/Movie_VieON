@@ -8,6 +8,7 @@ import Premium from "./components/Premium";
 import MovieSearch from "./components/MovieSearch";
 import { MovieProvider } from "./context/MovieProvider";
 import { Routes, Route } from "react-router-dom";
+import Mobifone from "./components/Mobifone";
 
 function App() {
   const [movie, setMovie] = useState([]);
@@ -85,6 +86,7 @@ function App() {
           <Route path="/login" element={<Login />} />
           <Route path="/ma-vieon" element={<MaVieon />} />
           <Route path="/mua-goi" element={<Premium />} />
+          <Route path="/mobifone" element={<Mobifone />}/>
         </Routes>
       </MovieProvider>
     </>

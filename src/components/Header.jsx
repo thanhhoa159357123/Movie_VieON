@@ -14,9 +14,9 @@ const Header = ({ onSearch }) => {
           VieON
         </h1>
         <nav className="flex items-center space-x-4">
-          <a href="#" className="text-white">
+          <Link to="/" className="text-white">
             Trang chủ
-          </a>
+          </Link>
           <a href="#" className="text-white">
             Truyền hình
           </a>

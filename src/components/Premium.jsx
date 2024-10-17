@@ -93,9 +93,9 @@ const Premium = () => {
               <p className="text-sm">
                 Dành riêng cho TB Mobifone! Chỉ 90K, có ngay gói VIP, 30GB data
                 4G. Mua ngay{" "}
-                <a href="#" className="text-green-500">
+                <Link to="/mobifone" className="text-green-500">
                   tại đây
-                </a>
+                </Link>
               </p>
             </div>
             <div className="flex items-center mt-2">
